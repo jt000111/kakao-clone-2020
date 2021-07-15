@@ -34,7 +34,29 @@
 }
 
 .nav__alarm {
+  background-color: tomato;
+  width: 8px;
+  height: 8px;
+  border-radius: 4px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-weight: 600;
   position: absolute;
-  left: 15px;
+  left: 20px;
   bottom: 15px;
+  position: absolute;
+  left: 32px;
+  bottom: 20px;
+}
+
+.nav__alarm--cog {
+  background-color: tomato;
+  width: 8px;
+  height: 8px;
+  border-radius: 4px;
+  position: absolute;
+  right: -6px;
+  top: -7px;
 }
